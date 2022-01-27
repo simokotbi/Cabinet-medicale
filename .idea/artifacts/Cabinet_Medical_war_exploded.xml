@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Cabinet_Medical:war exploded">
+    <output-path>$PROJECT_DIR$/target/Cabinet_Medical-0.0.1-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>Cabinet_Medical</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Cabinet_Medical" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: junit:junit:4.13.1" />
+          <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.20" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.6.1" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.6" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/Cabinet_Medical-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Cabinet_Medical/web/Web" />
+    </root>
+  </artifact>
+</component>
